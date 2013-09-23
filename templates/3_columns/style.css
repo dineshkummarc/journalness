@@ -1,0 +1,552 @@
+html {
+	height : 100%;
+}
+
+body {
+	font-size : 12px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin : 0px;
+	height : 100%;
+	background-color: #e7e7e7;
+}
+
+#maintable {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 850px;
+}
+
+p {
+	margin : 2px;
+	font-size : 11px;
+}
+
+a:visited,
+a:active,
+a:link {	
+	color : #092EC1;
+	text-decoration : none;
+}
+
+a:hover {
+	text-decoration : underline;
+}
+
+img {
+	border: 0px;
+}
+
+h1 {	
+      color : #000000;
+	margin : 0px;
+	font-size : 21px;
+}
+
+h1 a:visited,
+h1 a:active,
+h1 a:link {
+	color : #284FF5;
+}
+
+h1 a:hover {
+	color : #000000;
+	text-decoration : none;
+}
+
+
+h2 {
+      color : #000000;
+	margin-top : 10px;
+	font-size : 17px;
+}
+
+h2.entry_title {
+	color: #000000;
+	margin: 0px;
+}
+
+h2.entry_title a {
+	color: #000000;
+}
+
+h2.entry_title a:hover {
+	color: #284FF5;
+	text-decoration: none;
+}
+
+h3 {
+      color : #FFFFFF;
+	margin : 0px;
+	padding : 0px;
+	font-size : 16px;
+	border-bottom : 1px solid #666666;
+}
+
+h4 {
+      color : #000000;
+	margin : 0px;
+	padding : 0px;
+	font-size : 14px;
+}
+
+
+h5 {
+      color : #000000;
+	margin : 0px;
+	padding : 0px;
+	font-size: 12px;
+}
+
+.titletext {
+	margin-top: 10px;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+h6 {  
+	color : #000000;
+	font-size : 12px;
+	margin : 0px;
+	padding : 0px;
+}
+
+div.centered {
+	text-align: center;
+}
+
+div.centered table {
+	margin: 0 auto; 
+	text-align: left;
+}
+
+div.left {
+	text-align: left;
+}
+
+div.left table {
+	margin: 0 auto; 
+	text-align: left;
+}
+
+.textinput {
+	font-size: 12px;
+	font-family: verdana, helvetica, sans-serif;
+	vertical-align: middle;
+      background-color: #FFFFFF;
+      color: #000000;
+}
+
+.button {
+	font-size: 12px;
+	font-family: verdana, helvetica, sans-serif;
+	vertical-align: middle;
+	border:1px solid ;
+      color: #000000;
+}
+
+/***********************
+ ** Table Data Styles **
+ ***********************/
+
+.default_table {
+	background-color: #FFFFFF;
+	border:2px solid #FFFFFF;
+}
+
+.default_tableheader {
+	background-color: #284FF5;
+      color: #FFFFFF;
+      font-size : 12px;
+	border:1px solid #284FF5;
+}
+
+.default_tableheader_small {
+	background-color: #000000;
+      color: #FFFFFF;
+      font-size : 10px;
+	border:1px solid #000000;
+}
+
+.default_tablecell {
+	background-color: #FFFFFF;
+      color: #000000;
+	border:1px solid #FFFFFF;
+      text-align:center;
+}
+
+.default_tablecell_alt1 {
+      background: #AAAAAA;
+      color: #000000;
+	border:1px solid #AAAAAA
+}
+
+.default_tablecell_alt2 {
+      background: #EEEEEE;
+      color: #000000;
+	border:1px solid #EEEEEE;
+}
+
+.default_tablefooter {
+	background-color: #FFFFFF;
+      color: #000000;
+      font-size : 12px;
+	border:1px solid #FFFFFF;
+}
+
+/******************
+ ** Entry Styles **
+ ******************/
+
+.entry_table {
+	background-color : #FFFFFF;
+	border : 1px solid #FFFFFF;
+}
+
+.entry {
+      color : #000000;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+.entry_date {
+	color: #777777;
+	font-family: Arial, Helvetica, Sans-Serif;
+	padding-bottom: 1.0em;
+	font-size: 10px;
+	line-height: 1.5em;
+}
+
+.modify_date {
+	padding-top: 2.0em;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.entry_footer {
+	color: #777777;
+	padding-top: 2.0em;
+	padding-bottom: 2.0em;
+	font-size:12px;
+	text-align:center;
+}
+
+/********************
+ ** Comment Styles **
+ ********************/
+
+.comment_title {
+      color: #000000;
+	padding-left : 5px;
+	font-size : 12px;
+
+}
+
+.comment {
+      color : #000000;
+	font-size:12px;
+	line-height: 1.4em;
+	padding:5px;
+}
+
+.comment_date {
+	color: #777777;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	line-height: 1.5em;
+	padding-bottom: 0.5em;
+}
+
+/*******************
+ ** Header Styles **
+ *******************/
+
+#headertop {
+	background-color : #FFFFFF;
+	height : 50px;
+	font-size : 11px;
+	vertical-align: top;
+	padding: 10px;
+	background: url('images/headertop.jpg') no-repeat;
+	border: none;
+}
+
+#headerbottom {
+	background-color : #FFFFFF;
+	height : 50px;
+	font-size : 11px;
+	vertical-align: bottom;
+	padding: 10px;
+	border-bottom : 2px solid #284FF5;
+	border-left: 2px solid #284FF5;
+	border-right: 2px solid #284FF5;
+}
+
+#headertable {
+	width : 100%;
+	height : 100%;
+
+}
+
+.headerversion {
+      color: #000000;
+	font-size : 9px;
+	margin : 0px;
+}
+
+/*******************
+ ** Footer Styles **
+ *******************/
+#footer {
+	background-color : #FFFFFF;
+	height : 100px;
+	font-size : 11px;
+	vertical-align: top;
+	background: url('images/footer.jpg') no-repeat;
+	border: none;
+}
+
+/***********************
+ ** Navigation Styles **
+ ***********************/
+
+#leftnavigation {
+	background-color : #F9F9F9;
+	color : #000000;
+	vertical-align : top;
+	width : 140px;
+	padding : 7px;
+	border-left: 2px solid #284FF5;
+}
+
+#rightnavigation {
+	background-color : #F9F9F9;
+	color : #000000;
+	vertical-align : top;
+	width : 180px;
+	padding : 7px;
+	border-right: 2px solid #284FF5;
+}
+
+.navigationlist {
+	list-style : none;
+	margin : 0px;	
+	padding : 0px;
+	margin-left : 5px;
+	margin-bottom : 10px;
+	width: 180px;
+	font-size : 12px;
+}
+
+.navoverflow {
+	width: 165px;
+	overflow: hidden;
+}
+
+.leftnavigationlist {
+	list-style : none;
+	margin : 0px;	
+	padding : 0px;
+	margin-left : 5px;
+	margin-bottom : 10px;
+	width: 140px;
+	font-size : 12px;
+}
+
+.leftnavoverflow {
+	width: 135px;
+	overflow: hidden;
+}
+
+.recententries {
+	padding-bottom: 5px;
+	padding-left: 10px;
+	background-image: url('images/arrow.gif');
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+.recententrieslist {
+	list-style : none;
+	padding: 0px;
+	margin: 0px;
+	margin-left : 5px;
+	margin-bottom : 10px;
+	width: 175px;
+}
+
+.categories {
+	padding-bottom: 3px;
+	padding-left: 2px;
+}
+
+.categorieslist {
+	list-style : none;
+	padding: 0px;
+	margin: 0px;
+	margin-left : 5px;
+	margin-bottom : 10px;
+	width: 175px;
+}
+
+/**********************
+ ** Main Page Styles **
+ **********************/
+
+#main {
+	background-color : #FFFFFF;
+	vertical-align : top;
+	width: 490px;
+	height : 100%;
+}
+
+.titleoverflow {
+	width: 150px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.useroverflow {
+	width: 50px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.pagination {
+	font-size: 11px;
+}
+
+/*******************
+ ** Search Styles **
+ *******************/
+
+.searchtable {
+	border: 2px solid #000;
+	padding: 2px;
+}
+
+.searchheader {
+	text-align:center;
+	background: #D9D9D9;
+	color: #092EC1;
+	border:1px solid #000;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.searchcell {
+	text-align:left;
+	vertical-align: top;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.searchcell2-right {
+	text-align:left;
+	vertical-align: middle;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.searchcell2-left {
+	text-align:left;
+	vertical-align: middle;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.searchrow1 {
+	background-color: #EEEEEE;
+}
+
+.searchrow2 {
+	background-color: #FFFFFF:
+}
+
+.searchpreviewtable {
+	width: 95%;
+	padding: 2px;
+}
+
+.searchpreviewtableheader-left {
+	text-align:left;
+	background: #D9D9D9;
+	font-weight: bold;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.searchpreviewtableheader-right {
+	text-align:right;
+	background: #D9D9D9;
+	font-weight: bold;
+	border-right:1px solid #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.searchpreviewtableinfo {
+	font-size: 10px;
+	padding: 5px;
+	background-color: #F2F2F2;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+.searchpreviewtablecell {
+	padding: 10px;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+}
+
+/*******************
+ ** BBCode Styles **
+ *******************/
+.code {
+	background: #D9D9D9;
+	border: 1px dotted #000;
+	color: #465584;
+	font-family: Courier, Courier New, Verdana, Arial;
+	margin: 0 auto 0 auto;
+	padding: 2px;
+	width: 98%;
+}
+
+.codetitle {
+	color: #000;
+	font-weight: bold;
+	margin: 0 auto 0 auto;
+	padding: 3px;
+	width: 98%;
+}
+
+.quote {
+	background: #D9D9D9;
+	border: 1px solid #000;
+	font-family: Verdana, Arial;
+	margin: 0 auto 0 auto;
+	padding: 2px;
+	width: 98%;
+}
+
+.quotetitle {
+	color: #000;
+	font-weight: bold;
+	margin: 0 auto 0 auto;
+	padding: 3px;
+	width: 98%;
+}
+
+/*********************
+ ** Calendar Styles **
+ *********************/
+.calendar {
+	width: 175px;
+	font-size: 10px;
+}

@@ -1,0 +1,934 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	color : #333;
+	background-color : #FFF;
+	font-size : 11px;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+        border: 0px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+}
+
+#header {
+        background-color: #FFF;
+        background-position: right top;
+        border-bottom: 4px solid #000000;
+	  height: 40px;
+        background: url(images/header_bg.png);
+}
+
+#headerdata {
+        position: relative;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+}
+
+#navigation {
+	  width: 100%;
+	  margin: 0px;
+	  padding: 0px;
+}
+
+#maintext {
+	  width: 100%;
+	  margin: 0px;
+	  padding: 0px;
+}
+
+img {
+	border: 0px;
+}
+
+.navmenu {
+	background: #F1F3F5;
+	border-bottom: 1px solid #000000;
+}
+
+.info {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5em;
+	width: 45%;
+}
+
+.topleftborder {
+	background: url('images/shadow-topl.gif') no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+.topborder {
+	background: url('images/shadow-top.gif') repeat-x;
+	height: 16px;
+}
+
+.toprightborder {
+	background: url('images/shadow-topr.gif') no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+.leftborder {
+	background: url('images/shadow-l.gif') repeat-y;
+}
+
+.middleborder {
+	border: 4px solid #FFFFFF;
+}
+
+.rightborder {
+	background: url('images/shadow-r.gif') repeat-y;
+	height: 16px;
+}
+
+.bottomleftborder {
+	background: url('images/shadow-botl.gif') no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+.bottomborder {
+	background: url('images/shadow-bot.gif') repeat-x;
+	height: 16px;
+}
+
+.bottomrightborder {
+	background: url('images/shadow-botr.gif') no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+.infotable {
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+.infotable p {
+	margin: 0px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.info h1 {
+	color: #000000;
+	margin: 0px;
+ 	text-align: center;
+	font-size: 1.6em;
+	padding-bottom: 5px;
+}
+
+.tableheader {
+	background-color: #98abfb;
+	text-align:center;
+	font-size: 1.1em;
+}
+
+.datacell {
+	text-align:left;
+	padding-left: 2px;
+	width: 100px;
+}
+
+.textcell {
+	text-align:left;
+	padding-right: 2px;
+	width: 140px;
+}
+
+.tablerow1 {
+	background-color: #f5f5f5;
+}
+
+.tablerow2 {
+	background-color: #e4e4e4;
+}
+
+.centered {
+	text-align:center;
+}
+
+.left {
+	text-align:left;
+}
+
+.right {
+	text-align:right;
+}
+
+form {
+	margin: 0px;
+}
+
+.button {
+	color: #284ff5;
+	border : solid 1px #000000;
+	font-weight : bold;
+	font-size : 11px;
+	padding: 4px;
+	margin-right: 10px;
+}
+
+.button2 {
+	color: #000000;
+	border : solid 1px #000000;
+	font-weight : bold;
+	font-size : 11px;
+	padding: 4px;
+	margin-right: 10px;
+}
+
+.login {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6em;
+	width: 250px;
+}
+
+.loginform {
+	border: 1px solid #000000;
+	background-color: #f6f8ff;
+	padding: 10px;
+}
+
+.login h1 {
+	color: #000000;
+	margin: 0px;
+ 	text-align: center;
+	font-size: 1.6em;
+	padding-bottom: 5px;
+}
+
+.inputlabel {
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.loginform input {
+	  margin-left: 10px;
+	  margin-bottom: 5px;
+}
+
+.inputbox {
+        z-index: -3;
+        font-size: 11px;
+}
+
+.configtabs {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 90%;
+}
+
+.backupcontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 50%;
+}
+
+.templatemanagercontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 800px;
+}
+
+.languagemanagercontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 650px;
+}
+
+.usermanagercontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 800px;
+}
+
+.massdeletecontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 800px;
+}
+
+.categorymanagercontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 800px;
+}
+
+.categoryeditcontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 400px;
+}
+
+.categorydeletecontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 300px;
+}
+
+.usereditcontainer {
+	margin-left: 25px;
+	padding-bottom: 3em;
+	width: 400px;
+}
+
+.configtabs h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.backupcontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.usermanagercontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.massdeletecontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.templatemanagercontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.languagemanagercontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.categorymanagercontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.categoryeditcontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.categorydeletecontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.usereditcontainer h1 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 2em;
+}
+
+.add h2 {
+	color: #000000;
+	margin: 0px;
+	text-align:left;
+	font-size: 16px;
+}
+
+.add td {
+	vertical-align: top;
+	font-size: 11px;
+}
+
+.add_category {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.add_link {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.languagedata th {
+	font-size: 11px;
+
+	padding-top: 6px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 25px;
+	background: url(images/background.jpg);
+	color: #000;
+	background-repeat: repeat;
+}
+
+.configform th {
+	font-size: 11px;
+
+	padding-top: 6px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: left;
+	height: 25px;
+	background: url(images/background.jpg);
+	color: #000;
+	background-repeat: repeat;
+}
+
+.backupdata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding: 10px;
+}
+
+.backupdata td {
+	font-size: 11px;
+}
+
+.templatedata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.categorydata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-top: 10px;
+	margin-bottom: 1.5em;
+}
+
+.userdata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.massdeletedata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.languagedata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.templatedata td {
+	font-size: 11px;
+}
+
+.categorydata td {
+	font-size: 11px;
+}
+
+.languagedata td {
+	font-size: 11px;
+}
+
+
+.configform td {
+	font-size: 11px;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.green-bold {
+	color: green;
+	font-weight: bold;
+}
+
+.red-bold {
+	color: red;
+	font-weight: bold;
+}
+
+.errormsg {
+	color: red;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 25px;
+}
+
+.backupdata td.underlined-title {
+	padding-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tabber {
+	display:none;
+}
+
+.config_column1 {
+	width: 15%;
+}
+
+.config_column2 {
+	width: 40%;
+}
+
+.config_column3 {
+	width: 39%;
+}
+
+.templateimage {
+	border: 1px solid #000;
+}
+
+.folderimage {
+	border: 1px solid #e0dfe3;
+}
+
+.is_default_image {
+	margin-left: 5.5px;
+}
+
+.is_default_text {
+	font-size: 10px;
+}
+
+.underline-cells {
+	border-bottom: 1px solid #000;
+}
+
+.templatecolumn1 {
+	padding-left: 5.5px;
+	padding-top: 2px;
+	width:60px;
+}
+
+.templatecolumn2 {
+	padding-top: 2px;
+	width:120px;
+}
+
+.description-text {
+	padding-top: 1.5em;
+	font-size: 12px;
+}
+
+.languagecolumn1 {
+	width:70px;
+}
+
+.languagecolumn2 {
+	width:180px;
+}
+
+.languagecolumn3 {
+	width:180px;
+}
+
+.languagecolumn4 {
+	width:120px;
+}
+
+.languagecolumn5 {
+	width:100px;
+}
+
+
+.categorycolumn1 {
+	width:30px;
+	text-align: center;
+}
+
+.categorycolumn2 {
+	width:170px;
+	text-align: left;
+}
+
+.categorycolumn2overflow {
+	width:170px;
+	overflow:hidden;
+}
+
+.categorycolumn3 {
+	width:250px;
+	text-align: left;
+}
+
+.categorycolumn3overflow {
+	width:250px;
+	overflow:hidden;
+}
+
+.categorycolumn4 {
+	width:80px;
+	text-align: left;
+}
+
+.categorycolumn5 {
+	width:80px;
+	text-align: center;
+}
+
+.categorycolumn6 {
+	width:80px;
+	text-align: center;
+}
+
+.categorycolumn7 {
+	width:52px;
+	text-align: center;
+}
+
+.entrycategorycolumn1 {
+	width:30px;
+	text-align: center;
+}
+
+.entrycategorycolumn2 {
+	width:150px;
+	text-align: left;
+}
+
+.entrycategorycolumn2overflow {
+	width:150px;
+	overflow:hidden;
+}
+
+.entrycategorycolumn3 {
+	width:290px;
+	text-align: left;
+}
+
+.entrycategorycolumn3overflow {
+	width:290px;
+	overflow:hidden;
+}
+
+.entrycategorycolumn4 {
+	width:60px;
+	text-align: center;
+}
+
+.entrycategorycolumn5 {
+	width:80px;
+	text-align: center;
+}
+
+.entrycategorycolumn6 {
+	width:80px;
+	text-align: center;
+}
+
+.entrycategorycolumn7 {
+	width:52px;
+	text-align: center;
+}
+
+.usertable td {
+	font-size: 11px;
+}
+
+.usercolumn1 {
+	width:30px;
+	text-align: center;
+}
+
+.usercolumn2 {
+	width:120px;
+	text-align: left;
+}
+
+.usercolumn2overflow {
+	width:120px;
+	overflow:hidden;
+}
+
+.usercolumn3 {
+	width:180px;
+	text-align: left;
+}
+
+.usercolumn3overflow {
+	width:180px;
+	overflow:hidden;
+}
+
+.usercolumn4 {
+	width:120px;
+	text-align: left;
+}
+
+.usercolumn5 {
+	width:90px;
+	text-align: center;
+}
+
+.usercolumn6 {
+	width:75px;
+	text-align: center;
+}
+
+.usercolumn7 {
+	width:75px;
+	text-align: center;
+}
+
+.usercolumn8 {
+	width:52px;
+	text-align: center;
+}
+
+.massdeletetable td {
+	font-size: 11px;
+}
+
+.massdeletecolumn1 {
+	width:30px;
+	text-align: center;
+}
+
+.massdeletecolumn2 {
+	width: 150px;
+	text-align: left;
+}
+
+.massdeletecolumn2overflow {
+	width:150px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.massdeletecolumn3 {
+	width:75px;
+	text-align: center;
+}
+
+.massdeletecolumn4overflow {
+	width:250px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.massdeletecolumn4 {
+	width:250px;
+	text-align: left;
+}
+
+.massdeletecolumn5 {
+	width:100px;
+	text-align: center;
+}
+
+.massdeletecolumn5overflow {
+	width:100px;
+	overflow:hidden;
+}
+
+.massdeletecolumn6 {
+	width:80px;
+	text-align: center;
+}
+
+.massdeletecolumn7 {
+	width:57px;
+	text-align: center;
+}
+
+.linkcolumn1 {
+	width:30px;
+	text-align:center;
+}
+
+.linkcolumn2 {
+	width:170px;
+	text-align: left;
+}
+
+.linkcolumn3 {
+	width:250px;
+	text-align: left;
+}
+
+.linkcolumn4 {
+	width:100px;
+	text-align: left;
+}
+
+.linkcolumn5 {
+	width:100px;
+	text-align: center;
+}
+
+.linkcolumn6 {
+	width:100px;
+	text-align: center;
+}
+
+ul.categoryrow {
+	padding:0;
+	margin:0;
+}
+
+li.categoryrow {
+	list-style-type: none;
+}
+
+ul.linkrow {
+	padding:0;
+	margin:0;
+}
+
+li.linkrow {
+	list-style-type: none;
+}
+
+.categoryrowheader th {
+	font-size: 11px;
+
+	padding-top: 6px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 25px;
+	background: url(images/background.jpg);
+	color: #000;
+	background-repeat: repeat;
+}
+
+.userrowheader th {
+	font-size: 11px;
+
+	padding-top: 6px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 25px;
+	background: url(images/background.jpg);
+	color: #000;
+	background-repeat: repeat;
+}
+
+.massdeleterowheader th {
+	font-size: 11px;
+
+	padding-top: 6px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 25px;
+	background: url(images/background.jpg);
+	color: #000;
+	background-repeat: repeat;
+}
+
+
+div.section table.categorytable {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 12px 0 0 0;
+	background-color: #CCCCCC;
+	display: block;
+	cursor: move;
+}
+
+table.linktable {
+	padding: 1px;
+	cursor: move;
+	table-width: fixed;
+}
+
+.categoryeditdata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.categoryeditdata td {
+	font-size: 11px;
+}
+
+.categorydeletedata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.categorydeletedata td {
+	font-size: 11px;
+}
+
+.usereditdata {
+	border: 1px solid #000;
+	font-size: 11px;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.usereditdata td {
+	font-size: 11px;
+}
+
+.pagination {
+	font-size: 11px;
+}
