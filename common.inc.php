@@ -174,7 +174,8 @@ function fix_magic_quotes ($var = NULL, $sybase = NULL)
 	if ( !isset ($var) )
 	{
 		// if magic quotes is enabled
-		if ( get_magic_quotes_gpc () )
+		// if ( get_magic_quotes_gpc () )
+		if ( false )
 		{
 			// workaround because magic_quotes does not change $_SERVER['argv']
 			$argv = isset($_SERVER['argv']) ? $_SERVER['argv'] : NULL; 
@@ -199,8 +200,13 @@ function fix_magic_quotes ($var = NULL, $sybase = NULL)
 		}
 
 		// disable magic_quotes_runtime
-		set_magic_quotes_runtime (0);
-		return TRUE;
+		//set_magic_quotes_runtime (0);
+		//return TRUE;
+		if (!function_exists('set_magic_quotes_runtime')) {
+            function set_magic_quotes_runtime($new_setting) {
+        return true;
+    }
+}
 	}
 
 	// if var is an array, fix each element
